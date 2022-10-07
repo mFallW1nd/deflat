@@ -1,4 +1,3 @@
-from re import VERBOSE
 from emu_utils import *
 from emu_analysis import *
 from unicorn import *
