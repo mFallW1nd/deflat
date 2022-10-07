@@ -1,12 +1,17 @@
-# Deobfuscation: recovering an OLLVM-protected program
+# Deobfuscation: recovering an OLLVM program
 ## Flatten Control Flow
 ### Description
 基于cq674350529的deflat，利用angr框架生成目标函数CFG，然后利用unicorn框架重写了模拟执行并去除控制流平坦化的部分
 >脚本依赖于angr框架及unicorn框架，以及capstone / keystone汇编与反汇编引擎
+>
 >具体依赖版本如下
+>
 >angr                   9.2.14
+>
 >unicorn                1.0.2rc4
+>
 >capstone               4.0.2
+>
 >keystone-engine        0.9.2
 ### Usage
 ```Plant Text
