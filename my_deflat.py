@@ -150,10 +150,19 @@ if __name__ == '__main__':
     else:
         filename, start_addr, end_addr = get_args()
 
-    # do some initialize
+    # get function's information
     print('\n[+] < Preparing for emulate execution >')
     tar_func = TarFunc(filename, start_addr, end_addr)
-
+    
+    print('\n[*] < Function\'s information >')
+    print('\nprologue_node >\n', tar_func.prologue_node)
+    print('\nmain_dispatcher_node >\n', tar_func.main_dispatcher_node)
+    print('\npre_dispatcher_node >\n', tar_func.pre_dispatcher_node)
+    print('\nrelevant nodes >\n')
+    for relevant in tar_func.relevant_nodes:
+        print(tar_func.relevant_nodes[relevant].sg_node)
+    print('\nretn node >\n', tar_func.retn_node)
+    
     # reconstruct control flow
     print('\n[+] < Reconstructing control flow >')
     for relevant in tar_func.relevant_nodes:
