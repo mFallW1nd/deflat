@@ -32,6 +32,78 @@ fallw1nd@fallw1nd-virtual-machine:~/Desktop/my/my_project/deflat$ python3 my_def
 
 [+] < Preparing for emulate execution >
 
+[*] < Function's information >
+
+prologue_node >
+ <SuperCFGNode 0x4008f0, 9 blocks, 9 out branches>
+
+main_dispatcher_node >
+ <SuperCFGNode 0x400acd, 1 blocks, 1 out branches>
+
+pre_dispatcher_node >
+ <SuperCFGNode 0x401b4a, 1 blocks, 1 out branches>
+
+relevant nodes >
+
+<SuperCFGNode 0x401b3b, 1 blocks, 0 out branches>
+<SuperCFGNode 0x4008f0, 9 blocks, 9 out branches>
+<SuperCFGNode 0x40157b, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40140b, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4015e4, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4017f3, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401630, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401668, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401603, 2 blocks, 2 out branches>
+<SuperCFGNode 0x401913, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4011fa, 2 blocks, 1 out branches>
+<SuperCFGNode 0x401a1e, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40173b, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40175c, 2 blocks, 2 out branches>
+<SuperCFGNode 0x4013c8, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401691, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401922, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401974, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401179, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40146e, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401ade, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40159c, 2 blocks, 2 out branches>
+<SuperCFGNode 0x401646, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4017d5, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4014bc, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40149a, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4010c3, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40156c, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401811, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401aa2, 2 blocks, 2 out branches>
+<SuperCFGNode 0x4017b2, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4016ff, 2 blocks, 2 out branches>
+<SuperCFGNode 0x401947, 2 blocks, 2 out branches>
+<SuperCFGNode 0x40184d, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4016ba, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401b0e, 2 blocks, 2 out branches>
+<SuperCFGNode 0x401120, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401996, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401548, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401898, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4011d8, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401436, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401acf, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4018c5, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401790, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401141, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4019da, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401398, 1 blocks, 1 out branches>
+<SuperCFGNode 0x401157, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40182f, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4010e5, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40172c, 1 blocks, 1 out branches>
+<SuperCFGNode 0x4018ec, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40186b, 1 blocks, 1 out branches>
+<SuperCFGNode 0x40144c, 1 blocks, 1 out branches>
+
+retn node >
+ <SuperCFGNode 0x401b3b, 1 blocks, 0 out branches>
+
 [+] < Reconstructing control flow >
 [0x401b3b] relevant executing!
                 retn node
