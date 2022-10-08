@@ -24,7 +24,7 @@ def step_over_hook(emu, addr, size, relevant):
         disasm['op'] == 'retn'
     ):
         print('\t\tretn node')
-        emu.emu_stop()
+        emu.emu_stop(
 
 
 def normal_hook(emu, addr, size, relevant):
