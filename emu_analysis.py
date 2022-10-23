@@ -106,11 +106,9 @@ class TarFunc():
         supergraph = self.supergraph
 
         for node in supergraph.nodes():
-            if   supergraph.in_degree(node)   == 0:
+            if   supergraph.in_degree(node)  == 0:
                 prologue_node = node
-            elif (supergraph.out_degree(node) == 0 and
-                  node.size > 5
-            ):
+            elif supergraph.out_degree(node) == 0:
                 retn_node     = node
 
         self.relevant_nodes[hex(retn_node.addr)] = ReleNode(retn_node)
