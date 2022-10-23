@@ -13,6 +13,10 @@
 >capstone               4.0.2
 >
 >keystone-engine        0.9.2
+### Advantage
+- 速度更快，在该测试用例中，执行时间比原angr脚本少接近1分钟
+- 相比于原angr脚本更好调试
+- 相比于原angr脚本修改起来更方便一些
 ### Usage
 ```Plant Text
 usage: my_deflat.py [-h] [-f FILE] [-a ADDR] [-e END]
